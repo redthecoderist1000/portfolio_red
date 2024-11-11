@@ -1,6 +1,17 @@
-.nav_container {
-  border: 1px solid red;
-}
 .navbar-collapse {
   flex-grow: 0;
+}
+.nav_bar {
+  backdrop-filter: blur(13px) saturate(180%);
+  -webkit-backdrop-filter: blur(13px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.27);
+  /* border: 1px solid red; */
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+  position: sticky;
+}
+.nav_bar a {
+  color: rgb(56, 56, 56);
+  margin: 0;
+  text-decoration: none !important;
 }
